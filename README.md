@@ -18,8 +18,6 @@ There are three role specific modifier buttons.  ![A](images/a_s.jpg) is for com
 
 ![System bindings](images/xbox/system.png)
 
-![Supercruise Bindings](images/xbox/supercruise.png)
-
 ![Landing overrides](images/xbox/landing.png)
 
 ![Buggy](images/xbox/buggy.png)
@@ -32,6 +30,11 @@ There are three role specific modifier buttons.  ![A](images/a_s.jpg) is for com
 4. Run Elite, go to controls options and select it from the preset menu
 
 ## Changes
+
+##### 18/09/10
+
+* Changed buggy vertical thruster and handbrake
+* Disabled forward/backward landing thrusters
 
 ##### 18/07/14
 

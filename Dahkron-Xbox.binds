@@ -269,11 +269,11 @@
 	</AheadThrust_Landing>
 	<ForwardThrustButton_Landing>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="GamePad" Key="GamePad_DPadUp" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</ForwardThrustButton_Landing>
 	<BackwardThrustButton_Landing>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="GamePad" Key="GamePad_DPadDown" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
 		<Primary Device="Keyboard" Key="Key_Z" />
@@ -797,7 +797,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyPitchDownButton>
 	<VerticalThrustersButton>
-		<Primary Device="GamePad" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_FaceDown">
+			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</VerticalThrustersButton>
@@ -810,9 +812,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
-		<Primary Device="GamePad" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_DPadDown">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</AutoBreakBuggyButton>
 	<HeadlightsBuggyButton>
 		<Primary Device="GamePad" Key="GamePad_DPadUp">
