@@ -243,11 +243,15 @@
 	</LateralThrust_Landing>
 	<LeftThrustButton_Landing>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="GamePad" Key="Pos_GamePad_LTrigger" />
+		<Secondary Device="GamePad" Key="GamePad_DPadLeft">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
+		</Secondary>
 	</LeftThrustButton_Landing>
 	<RightThrustButton_Landing>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="GamePad" Key="Pos_GamePad_RTrigger" />
+		<Secondary Device="GamePad" Key="GamePad_DPadRight">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
+		</Secondary>
 	</RightThrustButton_Landing>
 	<VerticalThrust_Landing>
 		<Binding Device="{NoDevice}" Key="" />
@@ -269,11 +273,15 @@
 	</AheadThrust_Landing>
 	<ForwardThrustButton_Landing>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="GamePad" Key="GamePad_DPadUp">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
+		</Secondary>
 	</ForwardThrustButton_Landing>
 	<BackwardThrustButton_Landing>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="GamePad" Key="GamePad_DPadDown">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
+		</Secondary>
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
 		<Primary Device="Keyboard" Key="Key_Z" />
