@@ -31,6 +31,10 @@ There are three role specific modifier buttons.  ![A](images/a_s.jpg) is for com
 
 ## Changes
 
+##### 18/09/14
+
+* Landing thrusters on DPad with X modifier
+
 ##### 18/09/10
 
 * Changed buggy vertical thruster and handbrake
